@@ -104,6 +104,8 @@ public class DatabaseQueryService {
 //        projectPrice.forEach(System.out::println);
 //        System.out.println(clientService.create("vano"));
 //        System.out.println(clientService.getById(3));
-        clientService.setName(6,"nikita");
+//        clientService.setName(6,"nikita");
+//        clientService.deleteById(9);
+        System.out.println(clientService.listAll());
     }
 }
